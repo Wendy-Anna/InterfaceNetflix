@@ -6,6 +6,6 @@
 
 ---
 
-## Instrutor Front-end/Mobile: [Felipe Aguiar](https://github.com/felipeAguiarCode)
+## Instrutor Front-end: [Felipe Aguiar](https://github.com/felipeAguiarCode)
 
 ## ***</>*** **by [Wendy-Anna Albuquerque Lopes](https://github.com/Wendy-Anna)**
