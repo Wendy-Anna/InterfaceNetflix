@@ -6,6 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style/main.css">
 
+  <!--owl css-->
+  <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+  <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
   <title>Interface do Netflix</title>
 </head>
 
@@ -26,8 +30,9 @@
   <main>
     <div class="filme-principal">
       <div class="container">
-        <h3 class="titulo">WandaVision</h3>
-        <p class="descricao">Marvel Studios apresenta uma nova era da televisão. </p>
+        <h3 class="titulo">O Mundo Sombrio de Sabrina</h3>
+        <p class="descricao">Bruxa e também mortal, a jovem Sabrina Spellman fica dividida entre a vida normal de
+          adolescente e o legado de sua família feiticeira.</p>
         <div class="botaoes">
           <button role="button" class="botao">
             <i class="fas fa-play"></i>
@@ -40,7 +45,33 @@
     </div>
   </main>
 
+  <div class="carrosel-filmes">
+    <div class="owl-carousel owl-theme">
+      <div class="item">
+        <img src="img/fate.jpg" alt="Série Fate" class="box-filme">
+      </div>
+      <div class="item">
+        <img src="img/aves.jpg" alt="Filme Aves de rapina" class="box-filme">
+      </div>
+      <div class="item">
+        <img src="img/goodDoctor.jpg" alt="Série The good doctor" class="box-filme">
+      </div>
+      <div class="item">
+        <img src="img/got.jpg" alt="Série Game of thrones" class="box-filme">
+      </div>
+      <div class="item">
+        <img src="img/viking.jpg" alt="Série Vinkies" class="box-filme">
+      </div>
+      <div class="item">
+        <img src="img/zonaComb.jpg" alt="Filme Zona de combate" class="box-filme">
+      </div>
+    </div>
+  </div>
+
   <script src="https://kit.fontawesome.com/c60b5e3691.js" crossorigin="anonymous"></script>
+  <script src="js/owl/jquery.min.js"></script>
+  <script src="js/owl/owl.carousel.min.js"></script>
+  <script src="js/owl/setup.js"></script>
 
 </body>
 
